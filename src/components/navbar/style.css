@@ -1,0 +1,130 @@
+@font-face {
+  font-family: semi-bold-oswald;
+  src: url("../../assets/fonts/static/Oswald-SemiBold.ttf");
+}
+
+header {
+  width: 100vw;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  position: fixed;
+  border-bottom: 1px solid lightgrey;
+  padding: 0 20px;
+  z-index: 99999999;
+}
+
+.start {
+  display: flex;
+}
+
+.bar-btn {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  height: fit-content;
+  margin-top: 16px;
+}
+
+.fa-bars {
+  font-size: 18px;
+  padding-top: 2px;
+}
+
+.youtube-header {
+  display: flex;
+  margin-top: 9px;
+}
+
+.fa-youtube {
+  font-size: 28px;
+  color: red;
+  padding-top: 4.5px;
+}
+
+.name-youtube {
+  color: #000;
+  font-family: semi-bold-oswald;
+  font-size: 20px;
+  margin-top: 3px;
+  letter-spacing: 0px;
+  margin-left: 2px;
+}
+
+.center {
+  display: flex;
+  margin-top: 11px;
+}
+
+.input-logo {
+  width: fit-content;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+}
+
+input {
+  width: 580px;
+  height: 32px;
+  padding: 2px 10px 2px 10px;
+  font-size: 16px;
+  border: 1px solid lightgrey;
+}
+
+.search-logo {
+  width: 65px;
+  height: 32px;
+  border: 1px solid lightgrey;
+  background-color: #f8f8f8;
+  padding-top: 6px;
+  text-align: center;
+  border-left: none;
+}
+
+.fa-search {
+  color: #9f9f9f;
+  font-size: 15px;
+}
+
+.voice-search {
+  background-color: #f9f9f9;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.fa-microphone {
+  color: #606060;
+  font-size: 18px;
+}
+
+.end {
+  display: flex;
+}
+
+.end-btn {
+  height: fit-content;
+  font-size: 17px;
+  color: #606060;
+  border: none;
+  background-color: #fff;
+  margin: 17px 9px 0 9px;
+  cursor: pointer;
+}
+
+.account-btn {
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 12px 0 0 9px;
+  background-image: url(../images/person1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

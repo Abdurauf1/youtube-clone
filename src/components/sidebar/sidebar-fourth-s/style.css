@@ -1,0 +1,52 @@
+@font-face {
+    font-family: regular;
+    src: url(../sidebar-first-s/fonts/NotoSansJP-Regular.otf);
+}
+
+.info {
+    display: flex;
+    width: 226px;
+    height: 43px;
+    background-color: #fff;
+    padding: 14px 25px;
+}
+
+.info:hover {
+    background-color: #f2f2f2;
+}
+
+.fa-gamepad {
+    color: #606060;
+    font-size: 18px;
+    margin: 2px 25px 0px -3px;
+}
+
+.fa-broadcast-tower {
+    color: #606060;
+    font-size: 18px;
+    margin: 0px 24px 0 -2px;
+}
+
+.fa-vest-patches {
+    color: #606060;
+    font-size: 18px;
+    margin: 2px 28px 0 0px;
+}
+
+.fa-lightbulb {
+    color: #606060;
+    font-size: 18px;
+    margin: 0 31px 0 1px;
+}
+
+.fa-trophy {
+    color: #606060;
+    font-size: 18px;
+    margin: 0 26px 0 -2px;
+}
+
+.name {
+    color: #606060;
+    font-family: regular;
+    font-size: 14px;
+}

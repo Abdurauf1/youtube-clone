@@ -1,0 +1,72 @@
+@font-face {
+    font-family: regular;
+    src: url(../fonts/NotoSansJP-Medium.otf);
+}
+
+.card {
+    width: 24%;
+    height: 265px;
+    background-color: transparent;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.card-img {
+    width: 100%;
+    height: 145px;
+}
+
+.card-body {
+    display: flex;
+    margin-top: 10px;
+}
+
+.user-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-text {
+    margin-left: 0px;
+    padding-right: 5px;
+    font-weight: 100;
+}
+
+.content-name {
+    font-family: regular;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.user-name {
+    font-size: 12px;
+    color: #606060;
+    font-family: regular;
+}
+
+.views {
+    font-size: 12px;
+    color: #606060;
+    font-family: regular;
+}
+
+.time {
+    font-size: 12px;
+    color: #606060;
+    font-family: regular;
+}
+
+.nuqta {
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    background-color: #606060;
+    margin: 8px 4px 0px 4px;
+}
+
+.fa-check-circle {
+    margin-left: 2px;
+    margin-top: 1px;
+}

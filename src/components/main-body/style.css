@@ -1,0 +1,15 @@
+.wrapper {
+    width: 1125px;
+    height: 100%;
+    background-color: #F9F9F9;
+    position: fixed;
+    left: 242px;    
+    top: 105px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: scroll;
+    bottom: 0;
+    padding-bottom: 100px;
+}

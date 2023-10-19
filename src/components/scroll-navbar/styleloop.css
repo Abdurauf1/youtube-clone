@@ -1,0 +1,28 @@
+.scrollbar {
+    display: flex;
+    height: 50px;
+    background-color: #fff;
+    position: fixed;
+    top: 55px;
+    left: 242px;
+    right: 0;
+    border-bottom: 1px solid lightgrey;
+    padding: 8px 15px;
+}
+
+.prev-btn {
+    background-color: #fff;
+    border: none;
+    color: #606060;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.next-btn {
+    background-color: #fff;
+    border: none;
+    color: #606060;
+    font-size: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: regular;
+    src: url(../sidebar-first-s/fonts/NotoSansJP-Regular.otf);
+}
+
+.footer-wrapper {
+    width: 215px;
+    height: 173px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 13px 6px 8px 15px;
+}
+
+.sec1 {
+    width: 180px;
+    color: #606060;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 11px;
+}
+
+a {
+    color: #606060;
+    font-size: 12px;
+    font-family: regular;
+}
+
+.sec2 {
+    width: 185px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 11px;
+}
+
+.sec3 {
+    width: 180px;
+    display: flex;
+    color: #606060;
+    font-size: 12px;
+    padding: 6px 0px 6px 10px;
+    font-family: regular;
+}
+
+.fa-copyright {
+    margin-top: 4px;
+    margin-right: 4px;
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: regular;
+    src: url(../sidebar-first-s/fonts/NotoSansJP-Regular.otf);
+}
+
+.info {
+    display: flex;
+    width: 226px;
+    height: 43px;
+    background-color: #fff;
+    padding: 14px 25px;
+}
+
+.info:hover {
+    background-color: #f2f2f2;
+}
+
+.fa-cog {
+    color: #606060;
+    font-size: 18px;
+    margin: 2px 27px 0px 0px;
+}
+
+.fa-flag {
+    color: #606060;
+    font-size: 18px;
+    margin: 0px 26px 0 0px;
+}
+
+.fa-question-circle {
+    color: #606060;
+    font-size: 18px;
+    margin: 2px 27px 0 0px;
+}
+
+.fa-exclamation-triangle {
+    color: #606060;
+    font-size: 18px;
+    margin: 0 25px 0 0px;
+}
+
+.name {
+    color: #606060;
+    font-family: regular;
+    font-size: 14px;
+}

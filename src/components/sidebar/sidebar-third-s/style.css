@@ -1,0 +1,31 @@
+@font-face {
+    font-family: regular;
+    src: url(./fonts/NotoSansJP-Regular.otf);
+}
+
+.info {
+    display: flex;
+    width: 226px;
+    height: 43px;
+    background-color: #fff;
+    padding: 11px 25px;
+}
+
+.info:hover {
+    background-color: #f2f2f2;
+}
+
+.img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 26px;
+    margin-left: -3px;
+}
+
+.name {
+    color: #606060;
+    font-family: regular;
+    text-transform: capitalize;
+    font-size: 14px;
+}
